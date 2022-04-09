@@ -3,7 +3,8 @@ from utils import runKNN
 
 k_values = [1, 3, 5, 7]
 
-path = "C:/Users/144951/Desktop/python/algorithm-knn/dataBase/spambase.data"
+# colocar o caminho do arquivo
+path = "../dataBase/spambase.data"
 
 for k in k_values:
     matrix, precision_rate, error_rate = runKNN(k, path)
